@@ -31,18 +31,35 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-notes',
+        path: 'docs-notes',
+        routeBasePath: 'docs-notes',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-projects',
+        path: 'docs-projects',
+        routeBasePath: 'docs-projects',
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: 'docs',
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/geauxweisbeck4/geauxweisbeck4.dev/tree/main/packages/create-docusaurus/templates/shared/',
+          lastVersion: 'current',
+          onlyIncludeVersions: ['current'],
         },
         blog: {
           showReadingTime: true,
@@ -64,6 +81,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
+        hideOnScroll: true,
         title: 'GeauxWeisbeck4.dev',
         logo: {
           alt: 'geauxweisbeck4 logo',
@@ -71,10 +89,22 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/docs/intro',
+            label: 'Tutorials',
             position: 'left',
-            label: 'Tutorial',
+            activeBaseRegex: '/docs/'
+          },
+          {
+            to: '/docs-notes/Intro',
+            label: 'Notes',
+            position: 'left',
+            activeBaseRegex: '/docs-notes/',
+          },
+          {
+            to: '/docs-projects/intro',
+            label: 'Projects',
+            position: 'left',
+            activeBaseRegex: '/docs-projects/'
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -88,11 +118,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Projects',
+                to: '/docs-projects/intro'
+              },
+              {
+                label: 'Notes',
+                to: '/notes/intro,',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
@@ -101,7 +143,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/users/17772593/geauxweisbeck4',
               },
               {
                 label: 'Discord',
@@ -111,18 +153,30 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/geauxweisbeck4',
               },
+              {
+                label: 'Mastodon',
+                href: 'https://fosstodon.org/@GeauxWeisbeck4',
+              },
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/geauxweisbeck4',
+              },
+              {
+                label: 'GeauxWeisbeck4.agency',
+                href: 'https://geauxweisbeck4.agency',
+              },
+              {
+                label: 'AndrewWeisbeck.dev',
+                href: 'https://andrewweisbeck.dev',
+              },
+              {
+                label: 'andrewsdigital.garden',
+                href: 'https://andrewsdigital.garden',
               },
             ],
           },

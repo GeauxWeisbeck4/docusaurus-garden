@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Full-Stack Web Developer',
+    Svg: require('@site/static/img/undraw_programming_re_kg9v.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I create full-stack web applications and Jamstack applications using the best frameworks and best practices around. Hire me to build any application, blog site, or just to implement something small - I can do it all!
       </>
     ),
   },
