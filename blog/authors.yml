@@ -1,0 +1,17 @@
+weisbeck:
+  name: Andrew Weisbeck
+  title: Owner of GeauxWeisbeck4
+  url: https://geauxweisbeck4.dev
+  image_url: https://github.com/geauxweisbeck4.png
+
+geauxweisbeck4:
+  name: GeauxWeisbeck4
+  title: Full Stack Developer
+  url: https://github.com/geauxweisbeck4
+  image_url: https://github.com/geauxweisbeck4.png
+
+devdude:
+  name: Tailwind Devdude
+  title: Student at TailwindCSS University
+  url: https://tailwindcss.dev
+  image_url: https://github.com/tailwinddevdude.png
