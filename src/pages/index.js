@@ -20,6 +20,11 @@ function HomepageHeader() {
             to="/about">
             All About Andrew in 5min ⏱️
           </Link>
+            <Link
+            className="button button--success button--lg margin-left--md"
+            to="/contact">
+             Let's have a chat!
+          </Link>
         </div>
       </div>
     </header>

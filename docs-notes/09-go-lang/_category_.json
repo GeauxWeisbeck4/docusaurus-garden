@@ -1,0 +1,8 @@
+{
+  "label": "09 Go",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "My notes while learning the Go language by Google."
+  }
+}

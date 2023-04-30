@@ -13,22 +13,20 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Experience Design Specialist',
+    Svg: require('@site/static/img/undraw_experience_design_re_ca7l.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       My design process is completely focused on you (the user) and your experience (is my website rad and easy to use?). You can expect a heavy amount of research here with me being a reading nerd.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Creative Digital Marketer',
+    Svg: require('@site/static/img/undraw_freelancer_re_irh4.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I can't ignore my schooling which involved 3.5 years of Business Courses with over a year of work on an economics masters degree. Combine that with my passion for psychology and you have yourself quite the marketer on your hands.
       </>
     ),
   },

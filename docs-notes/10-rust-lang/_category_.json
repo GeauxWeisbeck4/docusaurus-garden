@@ -1,0 +1,8 @@
+{
+  "label": "10 Rust",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "All my notes pertaining to Rust."
+  }
+}

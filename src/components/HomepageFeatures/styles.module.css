@@ -3,9 +3,15 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  background-color: rgba(203, 242, 255, 0.31);
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
+  background-color: #fff7e8;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 2px;
+  margin-bottom: 4px;
 }

@@ -95,13 +95,13 @@ const config = {
             activeBaseRegex: '/docs/'
           },
           {
-            to: '/docs-notes/Intro',
+            to: '/docs-notes/',
             label: 'Notes',
             position: 'left',
             activeBaseRegex: '/docs-notes/',
           },
           {
-            to: '/docs-projects/intro',
+            to: '/docs-projects/',
             label: 'Projects',
             position: 'left',
             activeBaseRegex: '/docs-projects/'
@@ -181,7 +181,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GeauxWeisbeck4.dev, Built with Docusaurus.`,
+        copyright: `<a target="_blank" href="https://icons8.com/icon/PXTY4q2Sq2lG/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> Copyright © ${new Date().getFullYear()} GeauxWeisbeck4.dev, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
