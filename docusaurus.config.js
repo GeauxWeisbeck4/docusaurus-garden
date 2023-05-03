@@ -89,7 +89,7 @@ const config = {
         },
         items: [
           {
-            to: '/docs/intro',
+            to: '/docs/',
             label: 'Tutorials',
             position: 'left',
             activeBaseRegex: '/docs/'

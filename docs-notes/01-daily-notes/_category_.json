@@ -1,8 +1,8 @@
 {
-  "label": "01 Daily Notes",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "An inside look into my life for historians some day."
-  }
+    "label": "01-Daily Notes",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "My daily notes and workflow, shared with the world."
+    }
 }

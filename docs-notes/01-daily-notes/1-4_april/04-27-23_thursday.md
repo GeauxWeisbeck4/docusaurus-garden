@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2 
+sidebar_position: 2
 ---
-# 04-27-23 - Thursday
+# 04-27-23 Thursday
 
 - Ok, yesterday was a totally sleepy day. I picked a bunch of stuff to get done with today I hope. At least I got my first app done for the 50 days of projects. I just need to make that website as well. Oh my oh my.
     - Also need to focus on money gettin ways of makin money.
